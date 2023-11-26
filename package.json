@@ -1,0 +1,32 @@
+{
+  "name": "react-signal",
+  "version": "1.0.0",
+  "description": "**React Signal** is a powerful state management library developed for React applications. This repository introduces an innovative approach to state management using Signals, providing an efficient alternative to traditional state management techniques. The primary goal is to enhance the predictability, scalability, and maintainability of React applications by simplifying the flow of data and automating updates across components.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "vite": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkankaynak/react-signal.git"
+  },
+  "author": "furkankaynak"
+}
